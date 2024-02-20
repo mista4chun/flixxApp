@@ -113,6 +113,7 @@ ul {
   color: var(--color-secondary);
 }
 
+
 /* Grid */
 .grid {
   display: grid;
@@ -139,6 +140,29 @@ ul {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
   background: #0a4b8f;
+}
+.top-cast {
+  display: flex;
+  margin-bottom: 25px;
+  
+}
+
+.profile {
+  display: flex;
+  width: 8%;
+  border-radius: 50%;
+  
+}
+
+.text {
+  display: block;
+  margin-left: 25px;
+  margin-top: 20px; 
+}
+
+.text-2 {
+  cursor: pointer;
+  color: #ccc;
 }
 
 /* Footer */
